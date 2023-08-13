@@ -1,6 +1,7 @@
 import "./App.css";
 import AdvertizedSection from "./components/AdvertizedSection";
 import Article from "./components/animettedText/Article";
+import Cards from "./components/CardsSection/Cards";
 import HeroSection from "./components/HeroSection";
 import HowIt from "./components/HowIt";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ function App() {
       <HeroSection></HeroSection>
       <HowIt></HowIt>
       <AdvertizedSection></AdvertizedSection>
+      <Cards></Cards>
     </div>
   );
 }
