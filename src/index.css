@@ -1,0 +1,20 @@
+@import url(https://db.onlinewebfonts.com/c/15db490066f3892032387f14ef589970?family=Kamerik+105+W00+Bold);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: #efefed;
+  /* font-family: "Kamerik 105"; */
+}
+.gradient-button {
+  background: linear-gradient(90deg, #ffac75 0%, #fe6468 100%, #ad71f2 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}

@@ -1,0 +1,66 @@
+@keyframes right-arrow {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes up-arrow {
+  0% {
+    opacity: 0;
+    transform: translateY(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes e {
+  0% {
+    opacity: 0;
+    transform: rotate(-540deg) scale(2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+}
+@keyframes fullWord {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.transition-right-arrow {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(270deg, #ffac74 -0.5%, #fe5a29 97.49%);
+
+  animation: right-arrow 1s ease 0s 1 normal forwards;
+}
+.transition-up-arrow {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(270deg, #ffac74 -0.5%, #fe5a29 97.49%);
+  animation: up-arrow 1s ease 0s 1 normal forwards;
+}
+.transition-e {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(270deg, #ffac74 -0.5%, #fe5a29 97.49%);
+  animation: e 1s ease 0s 1 normal forwards;
+}
+
+.transitioned {
+  animation: fullWord 1s ease 0s 1 normal forwards;
+}
