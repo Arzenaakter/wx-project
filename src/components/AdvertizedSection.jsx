@@ -8,14 +8,16 @@ const AdvertizedSection = () => {
       title: "Apply",
       description:
         "Select a plan and schedule an onboarding call to get started.",
-      border: "border-dashed border-l-2 border-black h-52 ml-10 -mt-2 mb-2",
+      border:
+        "border-dashed border-l-2 border-black h-[254px] ml-10 -mt-2 mb-2",
     },
     {
       id: "02",
       title: "review",
       description:
         "We’ll review your request and get back to you in 2-3 business days on average.",
-      border: "border-dashed border-l-2 border-black h-52 ml-10 -mt-8 mb-2 ",
+      border:
+        "border-dashed border-l-2 border-black h-[254px] ml-10 -mt-8 mb-2 ",
     },
     {
       id: "03",
