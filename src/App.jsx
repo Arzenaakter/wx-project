@@ -2,9 +2,11 @@ import "./App.css";
 import AdvertizedSection from "./components/AdvertizedSection";
 import Article from "./components/animettedText/Article";
 import Cards from "./components/CardsSection/Cards";
+import Footer from "./components/Footer/Footer";
 import HeroSection from "./components/HeroSection";
 import HowIt from "./components/HowIt";
 import Navbar from "./components/Navbar";
+import StillNotSection from "./components/StillNotSection";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <HowIt></HowIt>
       <AdvertizedSection></AdvertizedSection>
       <Cards></Cards>
+      <StillNotSection></StillNotSection>
+      <Footer></Footer>
     </div>
   );
 }

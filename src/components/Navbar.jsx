@@ -17,7 +17,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="bg-white">
-        <Button></Button>
+        <Button title="Get Started"></Button>
       </div>
     </div>
   );
