@@ -4,7 +4,7 @@ const AdCard = ({ data }) => {
     <div className="">
       <div className="flex gap-8">
         <div className="w-[97px] h-[97px] rounded-full border-black border-2 flex items-center justify-center">
-          <h1 className="text-[48px] font-semibold">{id}</h1>
+          <h1 className="lg:text-[48px] text-[28px] font-semibold">{id}</h1>
         </div>
         <div>
           <h1 className="text-[48px] font-bold">{title}</h1>

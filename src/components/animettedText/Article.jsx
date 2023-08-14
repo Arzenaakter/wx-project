@@ -32,8 +32,8 @@ const Article = () => {
     }
   };
   return (
-    <div className="flex justify-center mt-5 mb-10 p-10">
-      <div className="text-[64px] font-bold text-[#333232]">
+    <div className="flex flex-col lg:flex-row justify-center mt-5 mb-10 p-10">
+      <div className="lg:text-[64px] text-[28px] font-bold text-[#333232]">
         <h1>We'd love to help</h1>
         <h1 className="ml-[150px] mt-2">Solve your</h1>
         <h1 className="ml-[80px] mt-2">
@@ -53,7 +53,7 @@ const Article = () => {
           </div>
         </h1>
       </div>
-      <p className=" text-[16px] mt-24 ml-[-95px] text-[#5C5C5B] h-[76px] w-[241px] font-[400]">
+      <p className=" text-[16px] mt-24 lg:ml-[-95px] ml-10 text-[#5C5C5B] h-[76px] w-[241px] font-[400]">
         We know that you care about your business as much as we do, and we're
         committed to helping you grow
       </p>

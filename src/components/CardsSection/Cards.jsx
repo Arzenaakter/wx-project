@@ -7,13 +7,13 @@ import img5 from "../../assets/ph-5.png";
 
 const Cards = () => {
   return (
-    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 my-20  ">
+    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 my-20  justify-center px-5 lg:px-0">
       <SingleCard
         photo={img1}
         title="Pause"
         description="want to take a break? Pause our services anytime"></SingleCard>
       <div className=" flex items-center ms-28 col-span-2 ...">
-        <h1 className="italic font-bold text-[48px] ">
+        <h1 className="italic font-bold lg:text-[48px] text-[24px] ">
           Why choose us? <br /> what makes us different?
         </h1>
       </div>

@@ -5,7 +5,7 @@ const HowIt = () => {
   return (
     <div className="my-44">
       <marquee
-        className="text-[96px] font-bold text-[#333232] "
+        className="lg:text-[96px] text-[30px] font-bold text-[#333232] "
         behavior="scroll"
         direction="left"
         scrollamount="10">

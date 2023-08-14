@@ -27,9 +27,9 @@ const AdvertizedSection = () => {
   ];
 
   return (
-    <div className="container mx-auto mb-28 flex flex-col lg:flex-row gap-10">
+    <div className="container mx-auto mb-28 flex flex-col lg:flex-row gap-10 px-10 lg:px-0">
       <div className="space-y-5">
-        <h1 className="w-[386px] text-[64px] font-bold">
+        <h1 className="w-[386px] lg:text-[64px] text-[30px] font-bold">
           advertising optimized
         </h1>
         <img src={ad} alt="" />
